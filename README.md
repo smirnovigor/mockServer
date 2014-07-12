@@ -132,14 +132,3 @@ module.exports = function(app, ctrl){
     app.post('/accounts', ctrl.postAndByIdFromHeaderParam);
 };
 ```
-
-
-
-http://127.0.0.1:3000/accounts/simple
-
-http://127.0.0.1:3000/accounts?startsAt=2014-04-05T17:25:04Z&endsAt=2014-04-15T17:25:04Z
-
-http://127.0.0.1:3000/accounts/3
-
-put and post
-http://127.0.0.1:3000/accounts
