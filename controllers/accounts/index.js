@@ -87,7 +87,7 @@ exports.putAndReturnByIdFromBodyParam = function(req, res){
  * @param req
  * @param res
  */
-exports.postAndByIdFromHeaderParam = function(req, res){
+exports.postAndReturnByIdFromHeaderParam = function(req, res){
 
     //FAKE POST DATA
     dataStore.store('/fake/path', {});
